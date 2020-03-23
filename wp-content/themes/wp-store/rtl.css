@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/WebYekan.eot');
+    src: url('fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WebYekan.woff') format('woff'),
+         url('fonts/WebYekan.ttf') format('truetype'),
+         url('fonts/WebYekan.svg#WebYekan') format('svg');
+}
+/*
+@font-face {
+  font-family: mitra;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/BMitraBold.woff') format('woff');
+}
+@font-face {
+  font-family: mitra;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/BMitra.woff') format('woff');
+}
+*/
+body {
+    overflow-x: hidden;
+}
+.owl-carousel {
+    direction: ltr;
+}
+body, button, input, select, textarea {
+    font-family: Yekan;
+}
+#promo-section .promo-text .category > a {
+    font-family: Yekan;
+}
+#promo-section .promo-text .title {
+    color: #fff;
+    font-family: Yekan;
+}
+#promo-section .promo-text {
+    bottom: 25px;
+    left: inherit;
+    text-align: right;
+    right: 45px;
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-family: Yekan;
+}
+#cta-section .cta-content h2 {
+    color: #3f3f3f;
+    font-family: Yekan;
+}
+#cta-section .cta-content h4 {
+    color: #f6a225;
+    font-family: Yekan;
+}
+.offer-content-wrap .product-title {
+    font-family: Yekan;
+}
+#widget-area-three-section .widget ul li .product-title {
+    color: #444;
+    font-family: Yekan;
+}
+.top-footer .widget .widget-title {
+    color: #919191;
+    font-family: Yekan;
+}
+@media screen and (min-width: 980px) {
+.menu-wrap ul li {
+    display: inline-block;
+    font-family: Yekan;
+}
+}
+.menu-wrap ul li {
+    font-family: Yekan;
+}
+.top-header .ed-social-icons + .ticker + .account-wrap, .top-header .ticker + .account-wrap {
+    text-align: left;
+}
+.widget_wp_store_offer .offer-content-wrap {
+    padding-right: 100px;
+    padding-left: inherit;
+}
+.main-navigation ul li.menu-item-has-children > a::before {
+    right: inherit;
+    left: 6px;
+}
+.main-navigation ul li ul {
+    left: inherit;
+    right: 0px;
+}
+.main-navigation ul li ul li ul {
+    left: inherit;
+    right: 100%;
+}
+.main-navigation ul li ul li.menu-item-has-children > a::before {
+    content: "\f0d9";
+    right: inherit;
+    left: 6px;
+}
+.menu-wrap .main-navigation {
+    display: inline-block;
+    float: right;
+}
+.ticker .slick-slider {
+    padding-right: 10px;
+    padding-left: inherit;
+}
+.ticker .slick-slider li h5 {
+    color: #333;
+    font-weight: normal;
+    font-family: Yekan;
+}
+.payment-partner {
+    text-align: left;
+}
+#slider-section .slider-content {
+    direction: rtl;
+}
+#widget-area-three-section .woocommerce ul.cart_list li img, #widget-area-three-section .woocommerce ul.product_list_widget li img {
+    float: right;
+    margin-left: inherit;
+    margin-right: 0;
+    padding-right: inherit;
+    padding-left: 10px;
+}
+.page-title span::after, .sidebar .widget-title span::after, .shop-sidebar .widget-title span::after {
+    left: inherit;
+    right: 0;
+}
+.rtl.woocommerce div.product div.images .flex-control-thumbs li {
+    float: right;
+}
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    float: right;
+    margin-right: inherit;
+    margin-left: 4px;
+}
+@media screen and (min-width: 768px) {
+      .right-sidebar .right-sidebar, .woocommerce-page .shop-sidebar {
+          float: left;
+      }
+    .right-sidebar #primary, .woocommerce-page #primary {
+         float: right;
+         padding-right: inherit;
+         padding-left: 30px;
+         
+    }
+   .widget ul li::before, .shop-sidebar ul.product-categories li::before {
+         left: inherit;
+         right: 0;
+   }
+   .widget ul li, .shop-sidebar ul li {
+       padding-left: inherit;
+       padding-right: 14px;
+   }
+}
+.blogs span .fa {
+    margin-left: 5px;
+    margin-right: inherit;
+}
+.menu-wrap .header-search .search-box {
+    right: inherit;
+    left: 0px;
+}
+.menu-wrap .main-navigation {
+    float: right;
+}
+.menu-wrap .header-search {
+    float: left;
+}
+.main-navigation ul li ul {
+    right: 0;
+    left: auto;
+}
+.main-navigation ul li.menu-item-has-children > a::before {
+    right: 75px;
+}
+.main-navigation ul li ul li ul {
+    top: 0;
+
+    right: 100%;
+    border-left: 1px solid #ffd494;
+    left: auto;
+}
+.main-navigation ul li ul li.menu-item-has-children > a::before {
+    content: "\f0d9";
+    top: 11px;
+    position: absolute;
+    right: 150px;
+    font-family: fontawesome;
+    font-size: 14px;
+}
+#widget-area-three-section .woocommerce ul.cart_list li img, #widget-area-three-section .woocommerce ul.product_list_widget li img {
+    float: right;
+    margin-left: 15px;
+}
+.payment-partner {
+    text-align: left;
+}
+.widget_wp_store_cta_simple::before, .widget_wp_store_cta_simple::after {
+    display: none;
+}
+.widget_wp_store_cta_simple {
+    background: none;
+    border: none;
+}
+.widget_wp_store_cta_simple .cta-title_simple.main-title {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.widget_wp_store_cta_simple .cta-desc_simple {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+#widget-icon-section .widget .payment-info {
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: middle;
+    padding: 40px 0 40px 20px;
+    margin-right: 15px;
+}
+#widget-icon-section .widget .payment-info h3 {
+    color: #000;
+    font-family: Yekan;
+}
+#widget-icon-section .widget .payment-info h3 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    text-align: right;
+}
+.ticker .slick-slider li h5 {
+    font-size: 11px !important;
+}
+.header-call-to > a, .header-cart span.cart-count, .header-cart span.cart-totle {
+    color: #999;
+    transition: all ease-in-out 0.4s;
+    -webkit-transition: all ease-in-out 0.4s;
+    display: none;
+}
+@media screen and (max-width: 540px)
+{
+.top-header .ed-social-icons + .ticker + .account-wrap, .top-header .ticker + .account-wrap {
+    text-align: right;
+}
+.top-header .ed-social-icons + .account-wrap, .top-header .ed-social-icons, .top-header .ed-social-icons + .ticker, .top-header .ticker, .top-header .ed-social-icons + .ticker + .account-wrap, .top-header .ticker + .account-wrap {
+    text-align: right;
+}
+}
+.header-search .search-in-select select {
+    padding-right: 15px;
+}
+.menu-wrap ul li {
+    font-size: 15px;
+}
