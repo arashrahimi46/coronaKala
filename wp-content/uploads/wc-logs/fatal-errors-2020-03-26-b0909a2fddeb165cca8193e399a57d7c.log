@@ -1,0 +1,36 @@
+2020-03-26T10:12:34+04:30 CRITICAL Uncaught Error: Call to a member function get_cart_url() on null in /var/www/coronakala.com/wp-content/themes/wp-store/header.php:130
+Stack trace:
+#0 /var/www/coronakala.com/wp-includes/template.php(722): require_once()
+#1 /var/www/coronakala.com/wp-includes/template.php(671): load_template('/var/www/corona...', true)
+#2 /var/www/coronakala.com/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/coronakala.com/wp-content/themes/wp-store/tpl-home.php(7): get_header()
+#4 /var/www/coronakala.com/wp-includes/template-loader.php(98): include('/var/www/corona...')
+#5 /var/www/coronakala.com/wp-blog-header.php(19): require_once('/var/www/corona...')
+#6 /var/www/coronakala.com/index.php(17): require('/var/www/corona...')
+#7 {main}
+  thrown در /var/www/coronakala.com/wp-content/themes/wp-store/header.php در خط 130
+
+2020-03-26T10:12:36+04:30 CRITICAL Uncaught Error: Call to a member function get_cart_url() on null in /var/www/coronakala.com/wp-content/themes/wp-store/header.php:130
+Stack trace:
+#0 /var/www/coronakala.com/wp-includes/template.php(722): require_once()
+#1 /var/www/coronakala.com/wp-includes/template.php(671): load_template('/var/www/corona...', true)
+#2 /var/www/coronakala.com/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/coronakala.com/wp-content/themes/wp-store/tpl-home.php(7): get_header()
+#4 /var/www/coronakala.com/wp-includes/template-loader.php(98): include('/var/www/corona...')
+#5 /var/www/coronakala.com/wp-blog-header.php(19): require_once('/var/www/corona...')
+#6 /var/www/coronakala.com/index.php(17): require('/var/www/corona...')
+#7 {main}
+  thrown در /var/www/coronakala.com/wp-content/themes/wp-store/header.php در خط 130
+
+2020-03-26T10:13:10+04:30 CRITICAL Uncaught Error: Call to a member function get_cart_url() on null in /var/www/coronakala.com/wp-content/themes/wp-store/header.php:130
+Stack trace:
+#0 /var/www/coronakala.com/wp-includes/template.php(722): require_once()
+#1 /var/www/coronakala.com/wp-includes/template.php(671): load_template('/var/www/corona...', true)
+#2 /var/www/coronakala.com/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /var/www/coronakala.com/wp-content/themes/wp-store/tpl-home.php(7): get_header()
+#4 /var/www/coronakala.com/wp-includes/template-loader.php(98): include('/var/www/corona...')
+#5 /var/www/coronakala.com/wp-blog-header.php(19): require_once('/var/www/corona...')
+#6 /var/www/coronakala.com/index.php(17): require('/var/www/corona...')
+#7 {main}
+  thrown در /var/www/coronakala.com/wp-content/themes/wp-store/header.php در خط 130
+

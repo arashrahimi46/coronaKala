@@ -1,32 +1,24 @@
 ﻿=== Persian Woocommerce ===
 author: ووکامرس فارسی
 Contributors: Persianscript, hannanstd, mahdiy
-author URI: http://www.woocommerce.ir/
-Donate link: http://woocommerce.ir/donate.html
-plugin URI: http://www.woocommerce.ir/download.html
+author URI: https://www.woosupport.ir/
+plugin URI: https://www.woosupport.ir/download/
 Tags: persian,parsi,parsian,persians,farsi,iran,woocommerce, persian woocommerce, woocommerce farsi, iran, iranian, rtl, fa_IR,states,iranian rials,iranian tomans, woocommerce.ir,affiliate, cart, checkout, commerce, configurable, digital, download, downloadable, e-commerce, ecommerce, inventory, reports, sales, sell, shipping, shop, shopping, stock, store, tax, variable, widgets, woothemes, wordpress ecommerce
-Requires at least: 4.4
-Tested up to: 4.8.2
+Requires at least: 5.0
+Tested up to: 5.3
 
-This plugin extends the WooCommerce shop plugin with complete Persian(Farsi) language packs
+بسته ووکامرس پارسی به راحتی سیستم فروشگاه ساز ووکامرس را فارسی می کند و امکانات جدید متناسب با ایران را به ووکامرس اضافه میکند.
 
 == Description ==
-**Persian Woocommerce**
-This plugin extends the WooCommerce shop plugin with complete Persian(Farsi) language packs
-
-= Features =
-* Translate All part of woocommerce to Persian (farsi)
-* Enables Iran States in Woocommerce Settings and customers Orders!
-* Enables iranian Rials and Tomans Currency 
-* Enables Replace the words
-* and...
+**ووکامرس فارسی**
+بسته فارسی ساز فروشگاه ساز ووکامرس شما را قادر می سازد تا ووکامرس را به صورت کامل فارسی شده همراه با امکانات کاربردی نظیر شهر های ایران، واحد های پولی ایران، درگاه های پرداخت بانکی و ابزارهای کاربردی دیگر داشته باشید.
 
 = Compatibility =
-* Woocommece 3.2.x
-* Wordpress 4.8.x
+* Woocommece 3.6.x
+* Wordpress 5.x
 
 = Support =
-*  [Persian Support in woocommerce.ir](http://woocommerce.ir/)
+*  [پشتیبان ووکامرس فارسی](http://www.woosupport.ir)
 
 = Fa =
 * بسته فارسی ساز ووکامرس شما را قادر می سازد تا فروشگاه ساز ووکامرس را به فارسی تبدیل کنید.
@@ -49,9 +41,63 @@ This plugin extends the WooCommerce shop plugin with complete Persian(Farsi) lan
 
 = Where can I find more information and documentation about the plug-in? =
 
-You can read complete documentations on the [woocommerce.ir](http://www.woocommerce.ir)
+You can read complete documentations on the [WooSupport.ir](https://www.woosupport.ir)
 
 == Changelog ==
+= 3.9.1 =
+* معرفی افزونه حمل و نقل فارسی ووکامرس
+= 3.9.0 =
+* بروزرسانی ترجمه
+= 3.7.0 =
+* بروزرسانی ترجمه
+= 3.6.5 =
+* افزودن راهنما جهت ثبت اپلیکیشن
+* بهبود پیش نمایش اپلیکیشن
+= 3.6.4 =
+* افزودن فرم ثبت سفارش اپلیکیشن موبایل فروشگاه
+* افزودن ابزار تعیین حداقل مبلغ ثبت سفارش
+* افزودن ابزار حذف فیلدهای غیرضروری برای محصولات دانلودی 
+= 3.6.3 =
+* رفع باگ در PHP 7.2
+= 3.5.5.1 =
+* رفع باگ در PHP 5.6
+= 3.5.5 =
+* بروزرسانی ترجمه و افزوده شدن ابزارهای تازه
+* ابزار رفع خطای کدپستی در موبایل
+* ابزار بررسی صحت شماره موبایل مشتری
+= 3.5.2 =
+* update translate bugs and fix states name
+= 3.5.2 =
+* اضافه شدن ابزار رفع مشکل استان و شهر در قسمت ووکامرس فارسی / ابزارها
+* رفع مشکل بروزخطا در صورت وارد کردن کدپستی با اغداد فارسی
+* قابلیت غیر فعال سازی آگهی
+= 3.5.1.1 =
+* بروزرسانی ترجمه و حذف منوی اضافه
+= 3.5.1 =
+* بروزرسانی و تغییرات جدید
+= 3.5.0 =
+* سازگاری با ووکامرس 3.5
+= 3.4.2 =
+* رفع باگ ریز در کلاس درگاه های پرداخت
+= 3.4.1 =
+* بروزرسانی زبان برای ووکامرس سری 3.4.x
+= 3.4.0 =
+* بروزرسانی زبان برای ووکامرس سری 3.4.x
+= 3.3.6.2 =
+* رفع مشکل درگاه Pay.IR
+= 3.3.6.1 =
+* رفع مشکل منوی تنظیمات افزونه پیامک
+= 3.3.6 =
+* رفع باگ و بازنویسی توابع قدیمی - کلاس بندی کدها
+* بهبود بخش شهرهای ایران (به ووکامرس پارسی >> ابزارها مراجعه شود)
+* اضافه شدن هسته اصلی درگاه های ایرانی برای بهبود و افزایش امنیت پرداخت
+* پس از بروز رسانی یک بار دیگر درگاه Pay.ir را تنظیم نمایید.
+= 3.3.0 =
+* پشتیبانی از ووکامرس 3.3 و سازگاری با PHP 7.2
+= 3.2.6.1 =
+* some bug fixed
+= 3.2.6 =
+* 3.2.6 افزوده شدن درگاه بانکی Pay.ir
 = 3.2.0 =
 * بروزرسانی ترجمه و سازگاری با ووکامرس 3.2.0
 = 3.1.2 =
@@ -124,8 +170,7 @@ You can read complete documentations on the [woocommerce.ir](http://www.woocomme
 * نسخه اولیه
 
 == Upgrade Notice ==
-= 3.2.0 =
-* بروزرسانی ترجمه و سازگاری با ووکامرس 3.2.0
-
+= 3.9.0 =
+* بروزرسانی ترجمه و ابزارهای تازه
 == Traducciones ==
-You can read complete documentations on the [woocommerce.ir](http://www.woocommerce.ir)
+پشتیبانی در سایت [WooSupport.ir](https://www.woosupport.ir) انجام میشود.

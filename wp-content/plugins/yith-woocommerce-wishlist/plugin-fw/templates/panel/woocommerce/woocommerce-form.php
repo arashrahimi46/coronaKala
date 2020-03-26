@@ -1,10 +1,12 @@
 <?php
-$hide_sidebar        = $this->hide_sidebar();
-$panel_content_class = !$hide_sidebar ? apply_filters( 'yit_admin_panel_content_class', 'yit-admin-panel-content-wrap' ) : 'yit-admin-panel-content-wrap-no-sidebar';
+/**
+ * @var string $option_key
+ */
+$panel_content_class = apply_filters( 'yit_admin_panel_content_class', 'yit-admin-panel-content-wrap' );
 ?>
 
-<div id="<?php echo $this->settings[ 'page' ] ?>_<?php echo $this->get_current_tab() ?>" class="yit-admin-panel-container">
-    <?php do_action( 'yit_framework_before_print_wc_panel_content', $current_tab ); ?>
+<div id="<?php echo $this->settings[ 'page' ] ?>_<?php echo $option_key ?>" class="yith-plugin-fw  yit-admin-panel-container">
+    <?php do_action( 'yit_framework_before_print_wc_panel_content', $option_key ); ?>
     <div class="<?php echo $panel_content_class; ?>">
         <form id="plugin-fw-wc" method="post">
             <?php $this->add_fields() ?>
@@ -19,12 +21,5 @@ $panel_content_class = !$hide_sidebar ? apply_filters( 'yit_admin_panel_content_
                    onclick="return confirm('<?php echo $warning . '\n' . __( 'Are you sure?', 'yith-plugin-fw' ) ?>');"/>
         </form>
     </div>
-    <?php
-    /**
-     *  Add panel Sidebar
-     */
-    if ( !$hide_sidebar )
-        $this->print_panel_sidebar();
-    ?>
-    <?php do_action( 'yit_framework_after_print_wc_panel_content', $current_tab ); ?>
+    <?php do_action( 'yit_framework_after_print_wc_panel_content', $option_key ); ?>
 </div>

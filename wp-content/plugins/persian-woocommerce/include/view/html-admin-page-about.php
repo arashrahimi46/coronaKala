@@ -1,22 +1,16 @@
-<?php
-/**
- * Our About page
- */
-?>
-
 <div class="wrap about-wrap">
     <h1>به دنیای ووکامرس فارسی خوش آمدید!</h1>
     <div class="about-text">همین الان فروشگاه خود با قدرت ووکامرس را ایجاد کنید و از امکانات فراوان آن لذت ببرید!
     </div>
 
     <div class="wp-badge"
-         style="background-color:#d8bfd8 !important;background-image:url('<?php echo PW()->plugin_url( '/assets/images/about.png' ); ?>') !important;background-position: center center;background-size: 167px auto !important;"></div>
+         style="background-color:#d8bfd8 !important;background-image:url('<?php echo PW()->plugin_url( 'assets/images/about.png' ); ?>') !important;background-position: center center;background-size: 167px auto !important;"></div>
 
     <h2 class="nav-tab-wrapper">
-        <a class="nav-tab nav-tab-active" href="http://woocommerce.ir" target="_blank">پشتیبان فارسی ووکامرس</a>
-        <a class="nav-tab" href="http://woocommerce.ir/plugins.html" target="_blank">افزونه ها</a>
-        <a href="http://woocommerce.ir/themes.html" class="nav-tab" target="_blank">پوسته ها</a>
-        <a href="http://shop.woocommerce.ir" class="nav-tab" target="_blank">فروشگاه</a>
+        <a class="nav-tab nav-tab-active" href="https://woocommerce.ir" target="_blank">پشتیبان فارسی ووکامرس</a>
+        <a class="nav-tab" href="https://woocommerce.ir/product-category/plugins/" target="_blank">افزونه ها</a>
+        <a href="https://woocommerce.ir/product-category/themes/" class="nav-tab" target="_blank">پوسته ها</a>
+        <a href="https://woocommerce.ir/market/" class="nav-tab" target="_blank">فروشگاه</a>
         <a href="http://forum.persianscript.ir/forum/102-%D9%BE%D8%B1%D8%B3%D8%B4-%D9%88-%D9%BE%D8%A7%D8%B3%D8%AE-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D9%88%D9%88%DA%A9%D8%A7%D9%85%D8%B1%D8%B3-%D9%BE%D8%A7%D8%B1%D8%B3%DB%8C/"
            class="nav-tab" target="_blank">انجمن پرسش و پاسخ</a>
     </h2>
@@ -33,7 +27,7 @@
 
             <div>
                 <h4>راستچین سازی</h4>
-                <p>بسته ووکامرس پارسی ، تمام قسمت های مدیریت ووکامرس را به صورت استاندارد راستچین سازی می نماید . </p>
+                <p>بسته ووکامرس پارسی ، تمام قسمت های مدیریت ووکامرس را به صورت استاندارد راستچین سازی می نماید.</p>
             </div>
 
             <div>
@@ -83,13 +77,14 @@
     <div class="changelog">
         <h3>پشتیبانی ووکامرس در ایران</h3>
 
-        <div class="feature-section col one-col"><a href="http://woocommerce.ir/" target="_blank"
+        <div class="feature-section col one-col">
+            <a href="http://woocommerce.ir/" target="_blank"
                                                     style="text-decoration:none;">
                 <div class="last-feature">
                     <p>در صورتی که سوالی دارید ، همین الان به وب سایت پشتیبان ووکامرس مراجعه کنید! منتظر شما هستیم</p>
                 </div>
-            </a></div>
+            </a>
+        </div>
     </div>
-
 
 </div>
